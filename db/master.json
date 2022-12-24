@@ -1,0 +1,296 @@
+{
+    "objective": "Master of Software Engineering student seeking a 14-week internship.",
+    "updated": "2022-12-14",
+    "contact": {
+        "email": "jules.ducange@insa-lyon.fr",
+        "phone": "+33 7 69 38 80 49",
+        "linkedin": "https://www.linkedin.com/in/jules-ducange-4796661a6/",
+        "github": "https://github.com/1gni5/"
+    },
+    "personal": {
+        "name": "Jules Ducange",
+        "dob": "2001-01-20",
+        "address": {
+            "street": "23 Grande rue",
+            "zipcode": "80800",
+            "city": "Bonnay",
+            "state": "Somme",
+            "country": "France"
+        }
+    },
+    "education": [
+        {
+            "title": "Master of Software Engineering",
+            "begin": "2021-09-01",
+            "end": "2024-09-01",
+            "location": "INSA (National Institute of Applied Sciences), Lyon, France",
+            "specialisation": "",
+            "classes": [
+                {
+                    "label": "Object-Oriented Programming",
+                    "tags": [
+                        "Java",
+                        "C++",
+                        "Python",
+                        "OOP"
+                    ]
+                },
+                {
+                    "label": "System Programming",
+                    "tags": [
+                        "C",
+                        "Assembly",
+                        "Linux"
+                    ]
+                },
+                {
+                    "label": "Introduction to NoSQL Databases",
+                    "tags": [
+                        "MongoDB",
+                        "SQL",
+                        "NoSQL"
+                    ]
+                },
+                {
+                    "label": "Introduction to database design",
+                    "tags": [
+                        "SQL",
+                        "MySQL",
+                        "PostgreSQL"
+                    ]
+                },
+                {
+                    "label": "Introduction to statistics",
+                    "tags": [
+                        "Statistics",
+                        "R"
+                    ]
+                },
+                {
+                    "label": "Introduction to probability",
+                    "tags": [
+                        "Probability",
+                        "R"
+                    ]
+                },
+                {
+                    "label": "Introduction to algorithms and data structures",
+                    "tags": [
+                        "Algorithms",
+                        "C",
+                        "C++"
+                    ]
+                }
+            ],
+            "projects": [
+                {
+                    "label": "Developed graphical application to optimize deliveries in Java",
+                    "tags": [
+                        "Java",
+                        "Swing",
+                        "XML",
+                        "OOP"
+                    ]
+                },
+                {
+                    "label": "Developed a command line application to manage train journeys in C++",
+                    "tags": [
+                        "C++",
+                        "OOP"
+                    ]
+                },
+                {
+                    "label": "Architectured and deployed a micro-service architecture",
+                    "tags": [
+                        "Java",
+                        "Microservices",
+                        "Networking"
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Higher National Diploma in Computer Science",
+            "begin": "2019-09-01",
+            "end": "2021-07-01",
+            "location": "University of Picardie Jules Verne, Amiens, France",
+            "specialisation": "Introduction to Artificial Intelligence",
+            "classes": [
+                {
+                    "label": "Relational Database Management",
+                    "tags": [
+                        "SQL",
+                        "MySQL",
+                        "PostgreSQL"
+                    ]
+                },
+                {
+                    "label": "Introduction to Computer Graphics",
+                    "tags": [
+                        "OpenGL",
+                        "TreeJS",
+                        "3D"
+                    ]
+                },
+                {
+                    "label": "Introduction to Computer Networks",
+                    "tags": [
+                        "C",
+                        "Networking",
+                        "TCP/IP"
+                    ]
+                },
+                {
+                    "label": "Administration of Linux Systems",
+                    "tags": [
+                        "Linux",
+                        "Shell",
+                        "Bash"
+                    ]
+                },
+                {
+                    "label": "User interface design",
+                    "tags": [
+                        "UI/UX",
+                        "VB",
+                        "WinForms"
+                    ]
+                }
+            ],
+            "projects": [
+                {
+                    "label": "Improved a CakePHP application following the MVC pattern",
+                    "tags": [
+                        "PHP",
+                        "CakePHP",
+                        "MySQL",
+                        "MVC"
+                    ]
+                },
+                {
+                    "label": "Setup continuous integration and deployment using GitLab and Docker",
+                    "tags": [
+                        "Git",
+                        "CI/CD",
+                        "Docker",
+                        "Linux",
+                        "Shell",
+                        "Gitlab"
+                    ]
+                }
+            ]
+        }
+    ],
+    "experiences": [
+        {
+            "title": "3-month internship, Python backend development",
+            "start": "2022-06-16",
+            "end": "2022-08-15",
+            "location": "LPI (Learning Planet Institute), Paris",
+            "actions": [
+                {
+                    "name": "Cooperated within an international team",
+                    "tags": [
+                        "Teamwork",
+                        "Communication",
+                        "International",
+                        "English"
+                    ]
+                },
+                {
+                    "name": "Implemented a statistic endpoint for a REST API",
+                    "tags": [
+                        "Python",
+                        "Django",
+                        "REST API"
+                    ]
+                },
+                {
+                    "name": "Automated data extraction from user reports (Google Sheets, Python)",
+                    "tags": [
+                        "Python",
+                        "Google Sheets",
+                        "Data extraction",
+                        "Google Script"
+                    ]
+                },
+                {
+                    "name": "Cooperated within a team of developers using Git",
+                    "tags": [
+                        "Git",
+                        "GitHub",
+                        "Teamwork"
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "2-month internship, development of a web application",
+            "start": "2021-05-20",
+            "end": "2021-07-15",
+            "location": "Government department of Education, Amiens",
+            "actions": [
+                {
+                    "name": "Developped a complete web application using Python/Django",
+                    "tags": [
+                        "Python",
+                        "Django",
+                        "Web development"
+                    ]
+                },
+                {
+                    "name": "Deployed contenerized applications using Docker",
+                    "tags": [
+                        "Docker",
+                        "Docker Compose",
+                        "Deployment"
+                    ]
+                },
+                {
+                    "name": "Organize application development following AGILE guidelines",
+                    "tags": [
+                        "Project management",
+                        "Agile",
+                        "Scrum"
+                    ]
+                },
+                {
+                    "name": "Design and implement user interfaces using Bootstrap",
+                    "tags": [
+                        "Bootstrap",
+                        "Web development",
+                        "UI/UX"
+                    ]
+                }
+            ]
+        }
+    ],
+    "languages": [
+        {
+            "name": "French",
+            "level": "Native speaker, C2"
+        },
+        {
+            "name": "English",
+            "level": "Fluent, TOEIC (965/990), C1"
+        }
+    ],
+    "skills": [
+        {
+            "label": "Admininstration of Linux systems",
+            "tags": ["Linux"]
+        },
+        {
+            "label": "Advanced Python development (Django, Flask)",
+            "tags": ["Python", "OOP", "Django", "Flask"]
+        },
+        {
+            "label": "Conteneurization technologies (Docker, Docker Compose)",
+            "tags": ["Docker", "Docker Compose"]
+        },
+        {
+            "label": "Version control using Git (Github, Gitlab)",
+            "tags": ["Git", "Github", "Gitlab", "VCS"]
+        }
+    ]
+}
