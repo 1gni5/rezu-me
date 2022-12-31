@@ -279,22 +279,75 @@
             "level": "Fluent, TOEIC (965/990), C1"
         }
     ],
-    "skills": [
+    "hard_skills": [
         {
             "label": "Admininstration of Linux systems",
-            "tags": ["linux", "shell", "bash"]
+            "tags": [
+                "linux",
+                "shell",
+                "bash"
+            ]
         },
         {
             "label": "Advanced Python development (Django, Flask)",
-            "tags": ["python", "oop", "django", "flask"]
+            "tags": [
+                "python",
+                "oop",
+                "django",
+                "flask"
+            ]
         },
         {
             "label": "Conteneurization technologies (Docker, Docker Compose)",
-            "tags": ["docker", "docker-compose"]
+            "tags": [
+                "docker",
+                "docker-compose"
+            ]
         },
         {
             "label": "Version control using Git (Github, Gitlab)",
-            "tags": ["git", "github", "gitlab", "vcs"]
+            "tags": [
+                "git",
+                "github",
+                "gitlab",
+                "vcs"
+            ]
+        }
+    ],
+    "soft_skills": [
+        {
+            "label": "Self-sufficient",
+            "tags": [
+                "autonomy",
+                "independence",
+                "self-sufficient"
+            ]
+        },
+        {
+            "label": "Teamwork",
+            "tags": [
+                "teamwork",
+                "communication"
+            ]
+        },
+        {
+            "label": "Problem solving",
+            "tags": [
+                "problem",
+                "solving"
+            ]
+        },
+        {
+            "label": "Adaptability",
+            "tags": [
+                "adaptability"
+            ]
+        },
+        {
+            "label": "Organization",
+            "tags": [
+                "organization"
+            ]
         }
     ]
 }

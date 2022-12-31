@@ -48,7 +48,7 @@ li {
 .section-title {
     font-size: 1.5em;
     font-weight: bold;
-    margin-bottom: 1em;
+    margin-bottom: 0.6em;
     width: 100%;
     border-bottom: 1px solid black;
 }
@@ -88,4 +88,10 @@ li {
 
 #languages .item-title {
     font-size: 1.1em;
+}
+
+/* --- Skills --- */
+#skills .container {
+    display: grid;
+    grid-template-columns: 3fr 2fr;
 }

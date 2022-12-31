@@ -77,7 +77,8 @@ class Resume(BaseModel):
     education: list[Education]
     experiences: list[Experience]
     languages: list[Language]
-    skills: list[TaggedItem]
+    hard_skills: list[TaggedItem]
+    soft_skills: list[TaggedItem]
 
     def get_tags(self) -> set[str]:
         """Return a set of all tags in the resume."""
@@ -118,6 +119,7 @@ class Resume(BaseModel):
         for experience in resume.experiences:
             experience.actions = filter_tags(experience.actions, tags)
 
-        resume.skills = filter_tags(resume.skills, tags)
+        resume.hard_skills = filter_tags(resume.hard_skills, tags)
+        resume.soft_skills = filter_tags(resume.soft_skills, tags)
 
         return resume
