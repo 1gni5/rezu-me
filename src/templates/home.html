@@ -1,0 +1,21 @@
+{% extends "base.html" %}
+
+{% block content %}
+<h1> Available tags : </h1>
+<ul>
+    {% for tag in available_tags %}
+        <li>{{ tag }}</li>
+    {% endfor %}
+</ul>
+<h1> Selected tags : </h1>
+<ul>
+    {% for tag in selected_tags %}
+        <li>{{ tag }}</li>
+    {% endfor %}
+</ul>
+
+<form method="POST">
+    <input type="text" id="raw-text" name="raw-text" value="">
+    <button type="submit">Valider</button>
+</form>
+{% endblock content %}

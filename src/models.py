@@ -77,3 +77,23 @@ class Resume(BaseModel):
     experiences: list[Experience]
     languages: list[Language]
     skills: list[TaggedItem]
+
+
+    def get_tags(self) -> set[str]:
+        """Return a set of all tags in the resume."""
+        tags = set()
+
+        for education in self.education:
+            for item in education.classes:
+                tags |= item.tags
+            for item in education.projects:
+                tags |= item.tags
+
+        for experience in self.experiences:
+            for item in experience.actions:
+                tags |= item.tags
+        
+        for skill in self.skills:
+            tags |= skill.tags
+
+        return tags
