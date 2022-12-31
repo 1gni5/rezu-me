@@ -1,0 +1,121 @@
+{% extends "base.html" %}
+
+{% block stylesheets %}
+<link rel="stylesheet" href="{{url_for('static', filename='stylesheets/reset.css')}}">
+<link rel="stylesheet" href="{{url_for('static', filename='stylesheets/render.css')}}">
+{% endblock stylesheets %}
+
+{% block content %}
+<!-- Title and subtitle -->
+<header>
+    <h1 class="title"> {{personal.name}} </h1>
+    <p class="subtitle"> {{objective}} </p>
+</header>
+
+<!-- Contact informations -->
+<ul id="contact-informations">
+    {% for key, value in contact.items() %}
+    <li>
+        <span class="key">
+            {{key|capitalize}}:
+        </span>
+        <span class="value">
+            {{value}}
+        </span>
+    </li>
+    {% endfor %}
+</ul>
+
+<!-- Education -->
+<section id="education">
+    <h2 class="section-title"> Education </h2>
+    {% for e in education %}
+    <section class="section-item">
+        <h3 class="item-title"> ({{e.begin.year}}-{{e.end.year}}) {{e.title}} </h3>
+        <p class="item-subtitle"> {{e.location}} </p>
+
+        <div class="double-column">
+            {% if e.specialisation %}
+            <p class="row-title"> Specialisation: </p>
+            <p class="row-content"> {{e.specialisation}} </p>
+            {% endif %}
+        </div>
+
+        <div class="double-column">
+            {% if e.classes %}
+            <p class="row-title"> Classes including: </p>
+            <ul class="row-content">
+                {% for c in e.classes %}
+                <li> {{c.label}} </li>
+                {% endfor %}
+            </ul>
+            {% endif %}
+        </div>
+
+        <div class="double-column">
+            {% if e.projects %}
+            <p class="row-title"> Projects: </p>
+            <ul class="row-content">
+                {% for p in e.projects %}
+                <li> {{p.label}} </li>
+                {% endfor %}
+            </ul>
+            {% endif %}
+        </div>
+        {% endfor %}
+
+    </section>
+</section>
+
+<!-- Work experience -->
+<section id="experiences">
+    <h2 class="section-title"> Experiences </h2>
+    {% for e in experiences %}
+    <section class="section-item">
+        <h3 class="item-title"> ({{e.begin.year}}-{{e.end.year}}) {{e.title}} </h3>
+        <p class="item-subtitle"> {{e.location}} </p>
+
+        {% if e.actions %}
+        <div class="double-column">
+            <p class="row-title"> Achievements </p>
+            <ul class="row-content">
+                {% for a in e.actions %}
+                <li> {{a.label}} </li>
+                {% endfor %}
+            </ul>
+        </div>
+        {% endif %}
+
+    </section>
+    {% endfor %}
+</section>
+
+<!-- Skills -->
+<section id="skills">
+    <h2 class="section-title"> Skills </h2>
+    <div class="double-column">
+            <h3 class="row-title"> Technical </h3>
+            <ul class="row-content">
+                {% for s in skills %}
+                <li> {{s.label}} </li>
+                {% endfor %}
+            </ul>
+    </div>
+</section>
+</div>
+</section>
+
+<!-- Languages -->
+<section id="languages">
+    <h2 class="section-title"> Languages </h2>
+    <div class="container">
+        {% for l in languages %}
+        <section class="section-item">
+            <h3 class="item-title"> {{l.name}} </h3>
+            <p class="item-subtitle"> {{l.level}} </p>
+        </section>
+        {% endfor %}
+    </div>
+</section>
+
+{% endblock content %}

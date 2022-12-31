@@ -7,6 +7,5 @@ class Parser:
     @staticmethod
     def from_text(text: str) -> set[str]:
         """Parse text and return a list of tags."""
-        translation = text.maketrans(punctuation, ' ' * len(punctuation))
+        translation = text.maketrans(punctuation, " " * len(punctuation))
         return set(text.lower().translate(translation).split())
-

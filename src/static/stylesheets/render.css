@@ -1,0 +1,91 @@
+/* --- General --- */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    padding: 2.5em;
+}
+
+li {
+    list-style: none;
+}
+
+.decorated li {
+    list-style: disc;
+    margin-left: 2em;
+}
+
+/* --- Header --- */
+.title {
+    font-size: 2em;
+    font-weight: bold;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.subtitle {
+    font-style: italic;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+/* --- Contact --- */
+
+#contact-informations {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    margin: 1em;
+    row-gap: 5px;
+}
+
+#contact-informations .key {
+    font-weight: italic;
+    text-decoration: underline;
+}
+
+/* --- Sections --- */
+.section-title {
+    font-size: 1.5em;
+    font-weight: bold;
+    margin-bottom: 1em;
+    width: 100%;
+    border-bottom: 1px solid black;
+}
+
+.section-item {
+    margin-bottom: 1em;
+}
+
+.item-title {
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+.item-subtitle {
+    font-style: italic;
+    margin-bottom: 0.8em;
+}
+
+.double-column {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    column-gap: 1em;
+}
+
+.row-title {
+    text-decoration: underline;
+    text-align: right;
+}
+
+/* --- Languages --- */
+#languages .container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+#languages .item-title {
+    font-size: 1.1em;
+}
