@@ -29,56 +29,56 @@
                 {
                     "label": "Object-Oriented Programming",
                     "tags": [
-                        "Java",
-                        "C++",
-                        "Python",
-                        "OOP"
+                        "java",
+                        "c++",
+                        "python",
+                        "oop"
                     ]
                 },
                 {
                     "label": "System Programming",
                     "tags": [
-                        "C",
-                        "Assembly",
-                        "Linux"
+                        "c",
+                        "assembly",
+                        "linux"
                     ]
                 },
                 {
                     "label": "Introduction to NoSQL Databases",
                     "tags": [
-                        "MongoDB",
-                        "SQL",
-                        "NoSQL"
+                        "mongodb",
+                        "sql",
+                        "nosql"
                     ]
                 },
                 {
                     "label": "Introduction to database design",
                     "tags": [
-                        "SQL",
-                        "MySQL",
-                        "PostgreSQL"
+                        "sql",
+                        "mysql",
+                        "postgresql"
                     ]
                 },
                 {
                     "label": "Introduction to statistics",
                     "tags": [
-                        "Statistics",
-                        "R"
+                        "statistics",
+                        "r"
                     ]
                 },
                 {
                     "label": "Introduction to probability",
                     "tags": [
-                        "Probability",
-                        "R"
+                        "probability",
+                        "r"
                     ]
                 },
                 {
                     "label": "Introduction to algorithms and data structures",
                     "tags": [
-                        "Algorithms",
-                        "C",
-                        "C++"
+                        "algorithms",
+                        "c",
+                        "c++"
                     ]
                 }
             ],
@@ -86,25 +86,25 @@
                 {
                     "label": "Developed graphical application to optimize deliveries in Java",
                     "tags": [
-                        "Java",
-                        "Swing",
-                        "XML",
-                        "OOP"
+                        "java",
+                        "swing",
+                        "xml",
+                        "oop"
                     ]
                 },
                 {
                     "label": "Developed a command line application to manage train journeys in C++",
                     "tags": [
-                        "C++",
-                        "OOP"
+                        "c++",
+                        "oop"
                     ]
                 },
                 {
                     "label": "Architectured and deployed a micro-service architecture",
                     "tags": [
-                        "Java",
-                        "Microservices",
-                        "Networking"
+                        "java",
+                        "microservices",
+                        "networking"
                     ]
                 }
             ]
@@ -119,41 +119,41 @@
                 {
                     "label": "Relational Database Management",
                     "tags": [
-                        "SQL",
-                        "MySQL",
-                        "PostgreSQL"
+                        "sql",
+                        "mysql",
+                        "postgresql"
                     ]
                 },
                 {
                     "label": "Introduction to Computer Graphics",
                     "tags": [
-                        "OpenGL",
-                        "TreeJS",
-                        "3D"
+                        "opengl",
+                        "treejs",
+                        "3d"
                     ]
                 },
                 {
                     "label": "Introduction to Computer Networks",
                     "tags": [
-                        "C",
-                        "Networking",
-                        "TCP/IP"
+                        "c",
+                        "networking",
+                        "tcp/ip"
                     ]
                 },
                 {
                     "label": "Administration of Linux Systems",
                     "tags": [
-                        "Linux",
-                        "Shell",
-                        "Bash"
+                        "linux",
+                        "shell",
+                        "bash"
                     ]
                 },
                 {
                     "label": "User interface design",
                     "tags": [
-                        "UI/UX",
-                        "VB",
-                        "WinForms"
+                        "ui/ux",
+                        "vb",
+                        "winforms"
                     ]
                 }
             ],
@@ -161,21 +161,21 @@
                 {
                     "label": "Improved a CakePHP application following the MVC pattern",
                     "tags": [
-                        "PHP",
-                        "CakePHP",
-                        "MySQL",
-                        "MVC"
+                        "php",
+                        "cakephp",
+                        "mysql",
+                        "mvc"
                     ]
                 },
                 {
                     "label": "Setup continuous integration and deployment using GitLab and Docker",
                     "tags": [
-                        "Git",
-                        "CI/CD",
-                        "Docker",
-                        "Linux",
-                        "Shell",
-                        "Gitlab"
+                        "git",
+                        "ci/cd",
+                        "docker",
+                        "linux",
+                        "shell",
+                        "gitlab"
                     ]
                 }
             ]
@@ -191,35 +191,38 @@
                 {
                     "label": "Cooperated within an international team",
                     "tags": [
-                        "Teamwork",
-                        "Communication",
-                        "International",
-                        "English"
+                        "teamwork",
+                        "communication",
+                        "international",
+                        "english"
                     ]
                 },
                 {
                     "label": "Implemented a statistic endpoint for a REST API",
                     "tags": [
-                        "Python",
-                        "Django",
-                        "REST API"
+                        "python",
+                        "django",
+                        "rest",
+                        "api"
                     ]
                 },
                 {
                     "label": "Automated data extraction from user reports (Google Sheets, Python)",
                     "tags": [
-                        "Python",
-                        "Google Sheets",
-                        "Data extraction",
-                        "Google Script"
+                        "python",
+                        "data",
+                        "scripting",
+                        "automation",
+                        "google",
+                        "gs"
                     ]
                 },
                 {
                     "label": "Cooperated within a team of developers using Git",
                     "tags": [
-                        "Git",
-                        "GitHub",
-                        "Teamwork"
+                        "git",
+                        "github",
+                        "teamwork"
                     ]
                 }
             ]
@@ -233,33 +236,34 @@
                 {
                     "label": "Developped a complete web application using Python/Django",
                     "tags": [
-                        "Python",
-                        "Django",
-                        "Web development"
+                        "python",
+                        "django",
+                        "web"
                     ]
                 },
                 {
                     "label": "Deployed contenerized applications using Docker",
                     "tags": [
-                        "Docker",
-                        "Docker Compose",
-                        "Deployment"
+                        "docker",
+                        "docker-compose",
+                        "deployment"
                     ]
                 },
                 {
                     "label": "Organize application development following AGILE guidelines",
                     "tags": [
-                        "Project management",
-                        "Agile",
-                        "Scrum"
+                        "project",
+                        "management",
+                        "agile",
+                        "scrum"
                     ]
                 },
                 {
                     "label": "Design and implement user interfaces using Bootstrap",
                     "tags": [
-                        "Bootstrap",
-                        "Web development",
-                        "UI/UX"
+                        "bootstrap",
+                        "web",
+                        "ui/ux"
                     ]
                 }
             ]
@@ -278,19 +282,19 @@
     "skills": [
         {
             "label": "Admininstration of Linux systems",
-            "tags": ["Linux"]
+            "tags": ["linux", "shell", "bash"]
         },
         {
             "label": "Advanced Python development (Django, Flask)",
-            "tags": ["Python", "OOP", "Django", "Flask"]
+            "tags": ["python", "oop", "django", "flask"]
         },
         {
             "label": "Conteneurization technologies (Docker, Docker Compose)",
-            "tags": ["Docker", "Docker Compose"]
+            "tags": ["docker", "docker-compose"]
         },
         {
             "label": "Version control using Git (Github, Gitlab)",
-            "tags": ["Git", "Github", "Gitlab", "VCS"]
+            "tags": ["git", "github", "gitlab", "vcs"]
         }
     ]
 }
