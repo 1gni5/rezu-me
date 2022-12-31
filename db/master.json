@@ -189,7 +189,7 @@
             "location": "LPI (Learning Planet Institute), Paris",
             "actions": [
                 {
-                    "name": "Cooperated within an international team",
+                    "label": "Cooperated within an international team",
                     "tags": [
                         "Teamwork",
                         "Communication",
@@ -198,7 +198,7 @@
                     ]
                 },
                 {
-                    "name": "Implemented a statistic endpoint for a REST API",
+                    "label": "Implemented a statistic endpoint for a REST API",
                     "tags": [
                         "Python",
                         "Django",
@@ -206,7 +206,7 @@
                     ]
                 },
                 {
-                    "name": "Automated data extraction from user reports (Google Sheets, Python)",
+                    "label": "Automated data extraction from user reports (Google Sheets, Python)",
                     "tags": [
                         "Python",
                         "Google Sheets",
@@ -215,7 +215,7 @@
                     ]
                 },
                 {
-                    "name": "Cooperated within a team of developers using Git",
+                    "label": "Cooperated within a team of developers using Git",
                     "tags": [
                         "Git",
                         "GitHub",
@@ -231,7 +231,7 @@
             "location": "Government department of Education, Amiens",
             "actions": [
                 {
-                    "name": "Developped a complete web application using Python/Django",
+                    "label": "Developped a complete web application using Python/Django",
                     "tags": [
                         "Python",
                         "Django",
@@ -239,7 +239,7 @@
                     ]
                 },
                 {
-                    "name": "Deployed contenerized applications using Docker",
+                    "label": "Deployed contenerized applications using Docker",
                     "tags": [
                         "Docker",
                         "Docker Compose",
@@ -247,7 +247,7 @@
                     ]
                 },
                 {
-                    "name": "Organize application development following AGILE guidelines",
+                    "label": "Organize application development following AGILE guidelines",
                     "tags": [
                         "Project management",
                         "Agile",
@@ -255,7 +255,7 @@
                     ]
                 },
                 {
-                    "name": "Design and implement user interfaces using Bootstrap",
+                    "label": "Design and implement user interfaces using Bootstrap",
                     "tags": [
                         "Bootstrap",
                         "Web development",
