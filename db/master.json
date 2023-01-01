@@ -232,7 +232,7 @@
             "begin": "2021-05-20",
             "end": "2021-07-15",
             "location": "Government department of Education, Amiens",
-            "achievement": [
+            "achievements": [
                 {
                     "label": "Developped a complete web application using Python/Django",
                     "tags": [
