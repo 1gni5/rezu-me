@@ -94,7 +94,7 @@ class Resume(BaseModel):
             for item in experience.actions:
                 tags |= item.tags
 
-        for skill in self.skills:
+        for skill in self.soft_skills + self.hard_skills:
             tags |= skill.tags
 
         return tags
@@ -110,7 +110,6 @@ class Resume(BaseModel):
                 key=lambda item: len(item.tags),
                 reverse=True,
             )
-
 
         for education in resume.education:
             education.classes = filter_tags(education.classes, tags)
