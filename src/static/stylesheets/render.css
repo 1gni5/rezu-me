@@ -7,11 +7,7 @@ body {
 
 li {
     list-style: none;
-}
-
-.decorated li {
-    list-style: disc;
-    margin-left: 2em;
+    padding-bottom: 0.1em;
 }
 
 /* --- Header --- */
@@ -60,6 +56,7 @@ li {
 .item-title {
     font-size: 1.2em;
     font-weight: bold;
+    margin-bottom: 0.2em;
 }
 
 .item-subtitle {
