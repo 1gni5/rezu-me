@@ -168,7 +168,7 @@
                     ]
                 },
                 {
-                    "label": "Setup continuous integration and deployment using GitLab and Docker",
+                    "label": "Set up continuous integration and deployment using GitLab and Docker",
                     "tags": [
                         "git",
                         "ci/cd",
@@ -233,7 +233,7 @@
             "begin": "2021-05-20",
             "end": "2021-07-15",
             "location": "Government department of Education, Amiens",
-            "mission": "Modernization of a web application for more than 6,500 users",
+            "mission": "Modernization of a web application for 34,000 users",
             "achievements": [
                 {
                     "label": "Developped a complete web application using Python/Django",
@@ -252,7 +252,7 @@
                     ]
                 },
                 {
-                    "label": "Organize application development following AGILE guidelines",
+                    "label": "Organized application development following AGILE guidelines",
                     "tags": [
                         "project",
                         "management",
@@ -261,7 +261,7 @@
                     ]
                 },
                 {
-                    "label": "Design and implement user interfaces using Bootstrap",
+                    "label": "Designed and implement user interfaces using Bootstrap",
                     "tags": [
                         "bootstrap",
                         "web",
