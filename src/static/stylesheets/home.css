@@ -1,0 +1,27 @@
+body {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 2em;
+    padding: 2em;
+    height: 95vh;
+    background-image: url("/static/pictures/background.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.badge {
+    cursor: pointer;
+    margin: 1px;
+}
+
+#control-panel {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+iframe {
+    width: 100%;
+    height: 100%;
+    background-color: white;
+}

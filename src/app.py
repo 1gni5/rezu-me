@@ -21,21 +21,26 @@ def home():
     available_tags = all_tags - selected_tags
 
     if request.method == "POST":
-        # Get raw-text and parse it
-        raw_text = request.form["raw-text"]
-        selected_tags = Parser.from_text(raw_text)
-        print(selected_tags)
 
-        # Save selected tags in session
-        session["selected_tags"] = list(selected_tags & all_tags)
-        print(session["selected_tags"])
+
+        # Get selected tags from request
+        selected_tags = set(request.form.getlist("selected-tags"))
+
+        # Get job description and extract tags from it
+        job_description = request.form["job-description"]
+        selected_tags |= Parser.from_text(job_description) & all_tags
+
+        # Save selected tags to session
+        session["selected_tags"] = list(selected_tags)
 
         return redirect(url_for("home"))
 
     return render_template(
         "home.html",
-        available_tags=list(available_tags),
-        selected_tags=list(selected_tags),
+        tags= [
+            (tag, (tag in selected_tags))
+            for tag in all_tags
+        ]
     )
 
 
@@ -47,4 +52,4 @@ def render():
     tags = set(session.get("selected_tags", []))
     resume = master.render(tags)
 
-    return render_template("render.html", **master.dict())
+    return render_template("render.html", **resume.dict())
