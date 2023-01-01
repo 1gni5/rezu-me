@@ -64,7 +64,7 @@ class Experience(BaseModel):
     begin: date
     end: date
     location: str
-    actions: list[TaggedItem]
+    achievements: list[TaggedItem]
 
 
 class Resume(BaseModel):
@@ -91,7 +91,7 @@ class Resume(BaseModel):
                 tags |= item.tags
 
         for experience in self.experiences:
-            for item in experience.actions:
+            for item in experience.achievements:
                 tags |= item.tags
 
         for skill in self.soft_skills + self.hard_skills:
@@ -116,7 +116,7 @@ class Resume(BaseModel):
             education.projects = filter_tags(education.projects, tags)
 
         for experience in resume.experiences:
-            experience.actions = filter_tags(experience.actions, tags)
+            experience.achievements = filter_tags(experience.achievements, tags)
 
         resume.hard_skills = filter_tags(resume.hard_skills, tags)
         resume.soft_skills = filter_tags(resume.soft_skills, tags)

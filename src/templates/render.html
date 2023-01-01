@@ -75,11 +75,11 @@
         <h3 class="item-title"> ({{e.begin.year}}-{{e.end.year}}) {{e.title}} </h3>
         <p class="item-subtitle"> {{e.location}} </p>
 
-        {% if e.actions %}
+        {% if e.achievements %}
         <div class="double-column">
             <p class="row-title"> Achievements </p>
             <ul class="row-content">
-                {% for a in e.actions %}
+                {% for a in e.achievements %}
                 <li> {{a.label}} </li>
                 {% endfor %}
             </ul>

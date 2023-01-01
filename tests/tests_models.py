@@ -151,7 +151,7 @@ class TestExperience(TestCase):
             "begin": "2014-01-01",
             "end": "2018-01-01",
             "location": "New York",
-            "actions": [
+            "achievements": [
                 {
                     "label": "Resume Generator",
                     "tags": ["python", "programming", "scripting", "cli"]
@@ -166,9 +166,9 @@ class TestExperience(TestCase):
         self.assertEqual(experience.begin, date(2014, 1, 1))
         self.assertEqual(experience.end, date(2018, 1, 1))
         self.assertEqual(experience.location, "New York")
-        self.assertEqual(experience.actions[0].label, "Resume Generator")
+        self.assertEqual(experience.achievements[0].label, "Resume Generator")
         self.assertEqual(
-            experience.actions[0].tags,
+            experience.achievements[0].tags,
             set(["python", "programming", "scripting", "cli"]),
         )
 
@@ -229,7 +229,7 @@ class TestResume(TestCase):
                     "begin": "2014-01-01",
                     "end": "2018-01-01",
                     "location": "New York",
-                    "actions": [
+                    "achievements": [
                         {
                             "label": "Resume Generator",
                             "tags": ["python", "programming", "scripting", "cli"]
@@ -237,10 +237,16 @@ class TestResume(TestCase):
                     ]
                 }
             ],
-            "skills": [
+            "hard_skills": [
                 {
                     "label": "Python",
                     "tags": ["python", "programming", "scripting"]
+                }
+            ],
+            "soft_skills": [
+                {
+                    "label": "Teamwork",
+                    "tags": ["teamwork", "collaboration", "communication"]
                 }
             ]
         }
@@ -284,12 +290,18 @@ class TestResume(TestCase):
         self.assertEqual(resume.experiences[0].begin, date(2014, 1, 1))
         self.assertEqual(resume.experiences[0].end, date(2018, 1, 1))
         self.assertEqual(resume.experiences[0].location, "New York")
-        self.assertEqual(resume.experiences[0].actions[0].label, "Resume Generator")
+        self.assertEqual(resume.experiences[0].achievements[0].label, "Resume Generator")
         self.assertEqual(
-            resume.experiences[0].actions[0].tags,
+            resume.experiences[0].achievements[0].tags,
             set(["python", "programming", "scripting", "cli"]),
         )
-        self.assertEqual(resume.skills[0].label, "Python")
+        self.assertEqual(resume.hard_skills[0].label, "Python")
         self.assertEqual(
-            resume.skills[0].tags, set(["python", "programming", "scripting"])
+            resume.hard_skills[0].tags,
+            set(["python", "programming", "scripting"]),
+        )
+        self.assertEqual(resume.soft_skills[0].label, "Teamwork")
+        self.assertEqual(
+            resume.soft_skills[0].tags,
+            set(["teamwork", "collaboration", "communication"]),
         )
