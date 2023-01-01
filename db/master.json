@@ -187,6 +187,7 @@
             "begin": "2022-06-16",
             "end": "2022-08-15",
             "location": "LPI (Learning Planet Institute), Paris",
+            "mission": "Development of a statistic API for dashboarding",
             "achievements": [
                 {
                     "label": "Cooperated within an international team",
@@ -232,6 +233,7 @@
             "begin": "2021-05-20",
             "end": "2021-07-15",
             "location": "Government department of Education, Amiens",
+            "mission": "Modernization of a web application for more than 6,500 users",
             "achievements": [
                 {
                     "label": "Developped a complete web application using Python/Django",

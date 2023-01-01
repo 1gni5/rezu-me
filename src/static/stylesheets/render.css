@@ -10,6 +10,10 @@ li {
     padding-bottom: 0.1em;
 }
 
+.italic {
+    font-style: italic;
+}
+
 /* --- Header --- */
 .title {
     font-size: 2em;
@@ -56,7 +60,7 @@ li {
 .item-title {
     font-size: 1.2em;
     font-weight: bold;
-    margin-bottom: 0.2em;
+    margin: 0.2em 0;
 }
 
 .item-subtitle {
@@ -73,6 +77,10 @@ li {
 .row-title {
     text-decoration: underline;
     text-align: right;
+}
+
+.row-title, .row-content {
+    margin-bottom: 0.2em;
 }
 
 /* --- Languages --- */

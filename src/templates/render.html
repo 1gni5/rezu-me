@@ -77,6 +77,10 @@
 
         {% if e.achievements %}
         <div class="double-column">
+
+            <p class="row-title"> Mission </p>
+            <p class="row-content italic"> {{e.mission}} </p>
+
             <p class="row-title"> Achievements </p>
             <ul class="row-content">
                 {% for a in e.achievements %}

@@ -64,6 +64,7 @@ class Experience(BaseModel):
     begin: date
     end: date
     location: str
+    mission: str
     achievements: list[TaggedItem]
 
 
