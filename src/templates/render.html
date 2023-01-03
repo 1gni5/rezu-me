@@ -5,6 +5,10 @@
 <link rel="stylesheet" href="{{url_for('static', filename='stylesheets/render.css')}}">
 {% endblock stylesheets %}
 
+{% block title %}
+<title> CV - {{personal.name}} </title>
+{% endblock title %}
+
 {% block content %}
 <!-- Title and subtitle -->
 <header>
