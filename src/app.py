@@ -53,3 +53,11 @@ def render():
     resume = master.render(tags)
 
     return render_template("render.html", **resume.dict())
+
+
+@app.route("/infos/")
+def infos():
+
+    master = Resume.parse_file("db/master.json")
+
+    return render_template("infos.html", **master.dict())
