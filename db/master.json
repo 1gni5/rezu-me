@@ -332,12 +332,11 @@
             ]
         },
         {
-            "label": "Frontend development (HTML, CSS, JavaScript, Bootstrap)",
+            "label": "Frontend development (HTML, CSS, JavaScript)",
             "tags": [
                 "html",
                 "css",
-                "javascript",
-                "bootstrap"
+                "javascript"
             ]
         },
         {
