@@ -2,7 +2,7 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 1em;
-    padding: 2.5em;
+    padding: 2em;
 }
 
 li {
@@ -14,9 +14,13 @@ li {
     font-style: italic;
 }
 
+.bold {
+    font-weight: bold;
+}
+
 /* --- Header --- */
 .title {
-    font-size: 2em;
+    font-size: 1.8em;
     font-weight: bold;
     text-align: center;
     margin: 0;
@@ -46,9 +50,9 @@ li {
 
 /* --- Sections --- */
 .section-title {
-    font-size: 1.5em;
+    font-size: 1.3em;
     font-weight: bold;
-    margin-bottom: 0.6em;
+    margin-bottom: 0.4em;
     width: 100%;
     border-bottom: 1px solid black;
 }
@@ -58,7 +62,7 @@ li {
 }
 
 .item-title {
-    font-size: 1.2em;
+    font-size: 1.1em;
     font-weight: bold;
     margin: 0.2em 0;
 }
@@ -74,6 +78,12 @@ li {
     column-gap: 1em;
 }
 
+.split {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 1em;
+}
+
 .row-title {
     text-decoration: underline;
     text-align: right;
@@ -86,13 +96,13 @@ li {
 /* --- Languages --- */
 #languages .container {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     flex-wrap: wrap;
-    justify-content: space-evenly;
+    align-items: center;
 }
 
-#languages .item-title {
-    font-size: 1.1em;
+#languages p {
+    margin: 0.2em;
 }
 
 /* --- Skills --- */

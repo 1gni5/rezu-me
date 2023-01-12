@@ -392,5 +392,13 @@
                 "organization"
             ]
         }
+    ],
+    "references": [
+        {
+            "name": "Ignacio Atal",
+            "position": "Head of Research team",
+            "company": "Learning Planet Institute",
+            "email": "ignacio.atal@cri-paris.org"
+        }
     ]
 }

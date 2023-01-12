@@ -68,6 +68,15 @@ class Experience(BaseModel):
     achievements: list[TaggedItem]
 
 
+class JobReference(BaseModel):
+    """Job reference model."""
+
+    name: str
+    position: str
+    company: str
+    email: str
+
+
 class Resume(BaseModel):
     """Resume model."""
 
@@ -80,6 +89,7 @@ class Resume(BaseModel):
     languages: list[Language]
     hard_skills: list[TaggedItem]
     soft_skills: list[TaggedItem]
+    references: list[JobReference]
 
     def get_tags(self) -> set[str]:
         """Return a set of all tags in the resume."""

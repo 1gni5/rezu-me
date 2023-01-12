@@ -123,17 +123,33 @@
 </div>
 </section>
 
+<div class="split">
 <!-- Languages -->
 <section id="languages">
     <h2 class="section-title"> Languages </h2>
     <div class="container">
         {% for l in languages %}
-        <section class="section-item">
-            <h3 class="item-title"> {{l.name}} </h3>
-            <p class="item-subtitle"> {{l.level}} </p>
+        <p>
+            <span class="bold">{{l.name}}</span>: 
+            <span class="italic">{{l.level}}</span>
+        </p>
+        {% endfor %}
+    </div>
+</section>
+
+<!-- References -->
+<section id="references">
+    <h2 class="section-title"> References </h2>
+    <div class="container">
+        {% for r in references %}
+        <section>
+            <h3 class="bold">{{r.name}}</h3>
+            <p class="italic">{{r.position}}, {{r.company}}</p>
+            <p>{{r.email}}</p>
         </section>
         {% endfor %}
     </div>
 </section>
 
+</div>
 {% endblock content %}
